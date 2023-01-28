@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+}
+
+.card-img-overlay h1 {
+    font-size: 72px;
+
+}
+
+.carousel-item img{
+    filter: brightness(30%);
+}
+
+.accordion-button{
+    background-color: rgba(243, 243, 243, 1);
+    border: none;
+    font-family: 'EB Garamond', serif;
+}
+
+@media only screen and (max-width:688px) {
+    .card-img-overlay h1 {
+        font-size: 32px;
+    }
+    .card-img-overlay p{
+        margin: 0;
+        line-height: 1;
+        font-size: 12px;
+    }
+
+}
